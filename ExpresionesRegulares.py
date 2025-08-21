@@ -15,3 +15,9 @@ I'm on top of the world"""
 
 resultado = re.findall(regularEx_1,palabra_1)
 print(resultado)
+
+## La palabra seleccionada es 'child'
+regularEx_2 = r"\bchild\b"
+
+resultado = re.findall(regularEx_2,palabra_1)
+print(resultado)
